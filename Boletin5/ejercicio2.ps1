@@ -4,7 +4,7 @@
 
     $mayor = $args[0]
     for ($index = 0; $index -lt $args.count; $index++){
-        if ($args[$index] -gt $mayor){
+        if ([int]$args[$index] -gt [int]$mayor){
             $mayor = $args[$index]
         }
     }
