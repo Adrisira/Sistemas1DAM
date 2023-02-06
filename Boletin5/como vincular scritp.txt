@@ -1,0 +1,2 @@
+./nombre del scritpt $args[0]
+write-host "fin de primer script"
