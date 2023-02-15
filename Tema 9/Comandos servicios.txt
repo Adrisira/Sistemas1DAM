@@ -1,0 +1,11 @@
+net stop "nombre"
+Detener el servicio
+net start "nombre"
+Iniciar el servicio
+net pause "nombre"
+Pausar el servicio
+net continue "nombre"
+Continuar el servicio
+cs query "nombre"
+estado del servicio
+
